@@ -26,6 +26,7 @@ This repository contains **Speech Understanding Course Assignment 1** for a cour
 3. **Explore the tasks**  
    - Check the assignment PDF for the details and questions.  
    - Inside each `task_*` folder, you’ll find scripts and/or notebooks demonstrating the solutions.
+   - I will recommend to use uv environment
 
 ## Usage
 
