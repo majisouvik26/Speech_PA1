@@ -39,5 +39,3 @@ Refer to each folder’s individual documentation or inline comments for specifi
 This repository is available under the [MIT License](LICENSE). 
 
 ---
-
-If you have any questions or run into issues, feel free to open an issue or make a pull request. Enjoy exploring and experimenting with these speech understanding tasks!
