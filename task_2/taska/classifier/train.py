@@ -67,7 +67,7 @@ def main(args):
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = AudioCNN(input_channels=1)
-    model.apply(init_weights)
+    # model.apply(init_weights)
     model.to(device)
 
     criterion = nn.CrossEntropyLoss()
@@ -108,12 +108,12 @@ if __name__ == "__main__":
                         help="Path to the metadata CSV file")
     parser.add_argument('--window', type=str, choices=['hann', 'hamming', 'rectangular'], default='hann',
                         help="Window function to use for feature extraction")
-    parser.add_argument('--epochs', type=int, default=20, help="Number of training epochs")
+    parser.add_argument('--epochs', type=int, default=100, help="Number of training epochs")
     parser.add_argument('--batch_size', type=int, default=32, help="Training batch size")
-    parser.add_argument('--lr', type=float, default=1e-3, help="Learning rate")
+    parser.add_argument('--lr', type=float, default=3e-4, help="Learning rate")
     parser.add_argument('--weight_decay', type=float, default=1e-5, help="Weight decay for the optimizer")
     parser.add_argument('--lr_factor', type=float, default=0.1, help="Factor by which the learning rate will be reduced")
     parser.add_argument('--lr_patience', type=int, default=10, help="Number of epochs with no improvement before reducing LR")
-    parser.add_argument('--model_out', type=str, default="audio_cnn.pth", help="Path to save the trained model")
+    parser.add_argument('--model_out', type=str, default="audio_cnn_hann.pth", help="Path to save the trained model")
     args = parser.parse_args()
     main(args)
