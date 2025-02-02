@@ -50,6 +50,6 @@ This folder contains all the resources needed to **analyze and compare the spect
    - Observe how the frequency components differ across time for each genre.
 
 5. **Analysis**  
-   - The analysis of my generated spectrograms can be found [here](https://chatgpt.com).
+   - The analysis of my generated spectrograms can be found [here](https://github.com/majisouvik26/Speech_PA1/blob/main/task_2/taskb/Report.pdf).
 
 
