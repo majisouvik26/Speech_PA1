@@ -1,8 +1,8 @@
 # Speech\_PA1
 
-This repository contains **Speech Understanding Course Assignment 1** for a course on Speech Understanding (or a related subject). The assignment requirements and questions are described in the PDF:
+This repository contains **Speech Understanding Course Assignment 1** for the course on Speech Understanding. The assignment requirements and questions are described in the PDF:
 
-> [Speech Programming Assignment 1.pdf](https://github.com/majisouvik26/Speech_PA1/blob/main/Speech%20Programming%20Assignment%201.pdf)
+> [Speech Understanding Assignment 1.pdf](https://github.com/majisouvik26/Speech_PA1/blob/main/Speech%20Programming%20Assignment%201.pdf)
 
 ## Contents
 
